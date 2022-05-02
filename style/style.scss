@@ -1,0 +1,40 @@
+//@import "mixins.scss";
+//
+//*,
+//html,
+//body {
+//    margin: 0;
+//    padding: 0;
+//    box-sizing: border-box;
+//    text-decoration: none;
+//    list-style: none;
+//    border: none;
+//    outline: none;
+//}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.col{
+  border: 1px solid lime;
+}
+.block,.logo{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.header{
+  margin-bottom: 100px;
+}
+.photo__item{
+  min-height: 450px;
+}
+.photo{
+  margin-bottom: 100px;
+}
+
+
